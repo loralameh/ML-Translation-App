@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translation Model</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      textarea {
+        border: none;
+        background-color: #f1f1f1;
+        width: 100%;
+        margin: 10px 0;
+        padding: 5px;
+        height: 60px;
+      }
+      label {
+        display: block;
+      }
+      .answer {
+        background-color: #f1f1f1;
+        margin: 10px 0;
+        padding: 5px;
+        height: 70px;
+      }
+      .main {
+        padding: 0 20px;
+        margin: auto;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body style="font-family: Verdana">
+    <div style="background-color: #f1f1f1; padding: 15px">
+      <img src="{{banner_image}}" style="width: 100%" />
+      <h1>Machine Learning Certification</h1>
+      <h3 style="color: coral">Translation Model</h3>
+    </div>
+
+    <div class="main">
+      <section>
+        <p>
+          Type a sentence in English and press translate to see french
+          translation
+        </p>
+        <form method="post">
+          <label for="sentence">Enter Text here:</label>
+          <textarea
+            name="sentence"
+            id="sentence"
+            placeholder="English Text"
+          ></textarea>
+          <input type="submit" value="Translate" />
+        </form>
+        <div class="answer">
+          <p>frensh translation here</p>
+        </div>
+      </section>
+
+      <section>
+        <fieldset style="background-color: bisque">
+          <legend><h2>Documentation</h2></legend>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+            facere sed? Harum illo commodi quidem, delectus earum saepe atque
+            eos voluptates id eaque eum voluptatem expedita magni asperiores,
+            est veritatis.
+          </p>
+        </fieldset>
+      </section>
+    </div>
+  </body>
+</html>
